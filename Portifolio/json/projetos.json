@@ -1,0 +1,40 @@
+{
+  "portfolio": [
+    {
+      "id": 1,
+      "title": "Sistema de Gestão de Tarefas",
+      "description": "Aplicação web para organizar e acompanhar tarefas, com autenticação de usuários e interface responsiva.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB"],
+      "image": "img/fundo.jpg",
+      "links": {
+        "demo": "https://meusite.com/task-manager",
+        "repository": "https://github.com/usuario/task-manager"
+      },
+      "date": "2024-05-12"
+    },
+    {
+      "id": 2,
+      "title": "Landing Page de Agência Digital",
+      "description": "Página institucional desenvolvida para apresentar os serviços de uma agência digital.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "image": "img/fundo.jpg",
+      "links": {
+        "demo": "https://meusite.com/agencia-digital",
+        "repository": "https://github.com/usuario/agencia-digital"
+      },
+      "date": "2023-11-03"
+    },
+    {
+      "id": 3,
+      "title": "Aplicativo de Previsão do Tempo",
+      "description": "App que exibe a previsão do tempo em tempo real usando API de meteorologia.",
+      "technologies": ["React", "TailwindCSS", "API OpenWeather"],
+      "image": "img/fundo.jpg",
+      "links": {
+        "demo": "https://meusite.com/weather-app",
+        "repository": "https://github.com/usuario/weather-app"
+      },
+      "date": "2024-02-20"
+    }
+  ]
+}

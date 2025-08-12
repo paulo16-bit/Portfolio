@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paulo andré - Portifólio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <script src="script.js" defer></script>
+    <script src="projetos.js" defer></script>
+    <script src="habilidades.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav__container">
+          <a href="#home" class="nav__logo">
+            <div class="logo-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <span class="logo-text">Paulo</span>
+          </a>
+          <div class="nav__menu" id="nav-menu">
+            <a class="nav__link active" href="#home">Home</a>
+            <a class="nav__link" href="#sobre-mim">Sobre</a>
+            <a class="nav__link" href="#projetos">Projetos</a>
+            <a class="nav__link" href="#habilidades">Habilidades</a>
+            <a class="nav__link" href="#contatos">Contato</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero" id="home">
+        <div class="hero__container">
+          <div class="hero__content">
+            <h1 class="hero__title">
+              Olá, eu sou <span class="text-accent">Paulo André</span>
+            </h1>
+            <h2 class="hero__subtitle">Desenvolvedor Full Stack</h2>
+            <div class="hero__buttons">
+              <a href="#projetos">Ver Projetos</a>
+              <a href="#contatos">Entrar em Contato</a
+              >
+            </div>
+          </div>
+          <div class="hero__image">
+            <div class="hero__blob">
+              <img class="hero__img" src="img/minha_foto.jpg" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hero sobre" id="sobre-mim">
+        <h1 class="hero__title">Sobre <span class="text-accent">Mim</span></h1>
+        <div class="sobre__container">
+          <div class="sobre__content">
+            <span>
+              <p class="hero__description">
+                Desenvolvedor Full Stack apaixonado por criar soluções elegantes
+                e funcionais. Com mais de 5 anos de experiência, especializo-me
+                em React, Node.js e tecnologias modernas.
+              </p>
+              <p>
+                Acredito que o código deve ser limpo, eficiente e escalável.
+                Sempre em busca de novos desafios e oportunidades para crescer
+                profissionalmente, focando em entregar valor real através da
+                tecnologia.
+              </p>
+            </span>
+          </div>
+          <div class="hero__image">
+            <div class="hero__blob">
+              <img class="hero__img" src="img/minha_foto.jpg" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hero" id="projetos">
+        <div class="projeto__content">
+          <h1 class="hero__title project">
+            Meus <span class="text-accent">Projetos</span>
+          </h1>
+          <div class="projetos__container" id="projetos__container"></div>
+        </div> 
+      </section>
+
+      <section class="hero" id="habilidades">
+		    <h1 class="hero__title">
+          Minhas <span class="text-accent">Habilidades</span>
+        </h1>
+        <div class="habilidades__container" id="habilidades-container"></div>
+	    </section>
+      
+      <section class="hero" id="contatos">
+        <h1 class="hero__title">Entre em <span class="text-accent">Contatos</span></h1>   
+      </section>
+    </main>
+  </body>
+</html>
