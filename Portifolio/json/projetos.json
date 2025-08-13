@@ -2,13 +2,12 @@
   "portfolio": [
     {
       "id": 1,
-      "title": "Sistema de Gestão de Tarefas",
-      "description": "Aplicação web para organizar e acompanhar tarefas, com autenticação de usuários e interface responsiva.",
-      "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB"],
-      "image": "img/fundo.jpg",
+      "title": "IADEL Finance - Sistema de Gestão Financeira para Igreja",
+      "description": "Aplicação web para organizar e acompanhar finanças da igreja, com autenticação e separação de acesso por tipo de usuário.",
+      "technologies": ["HTML", "CSS", "Node.js", "Express", "PostgreSQL", "Spring Boot"],
+      "image": "img/interface_IADEL_Finance.png",
       "links": {
-        "demo": "https://meusite.com/task-manager",
-        "repository": "https://github.com/usuario/task-manager"
+        "repository": "https://github.com/paulo16-bit/IADEL_finance"
       },
       "date": "2024-05-12"
     },

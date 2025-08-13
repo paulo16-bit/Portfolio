@@ -100,13 +100,12 @@ a{
 }
 section{
 	min-height: 100vh;
-}
-.hero {
 	display: flex;
 	align-items: center;
 	justify-content: center;	
 	padding: 0 5rem;
 }
+
 #home, #contatos{
   	background: linear-gradient(135deg, #0a0a0a 0%, #0f251f 20%, #141414 100%);
 }
@@ -184,8 +183,7 @@ section{
 }
 
 /* Sobre */
-.sobre{
-	display: flex;
+#sobre-mim, #contatos{
 	flex-direction: column;
 }
 .sobre__container {
@@ -274,14 +272,13 @@ section{
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	padding: 5rem 0;
 }
 
 .habilidades__container{
 	display: flex;
 	justify-content: center;
 	width: 90%;
-	gap: 7rem;
+	gap: 3rem;
 	padding: 3rem 0;
 }
 .habilidade__card{
@@ -328,4 +325,11 @@ section{
 	background-color: #0f251f;
 	overflow: hidden;
 	border-radius: 50px 0 0 50px;
+}
+/* contatos */
+.contatos__container{
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	padding: 3rem 0;
 }

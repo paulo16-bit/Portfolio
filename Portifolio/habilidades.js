@@ -1,8 +1,8 @@
 async function carregarHabilidades() {
+    const container = document.getElementById("habilidades-container");
     try {
         const response = await fetch("json/habilidades.json");
         const data = await response.json();
-        const container = document.getElementById("habilidades-container");
 
         data.habilidades.forEach(grupo => {
             const card = document.createElement("div");
@@ -34,6 +34,7 @@ async function carregarHabilidades() {
         });
     } catch (error) {
         console.error("Erro ao carregar habilidades:", error);
+        container.innerHTML = "<p>Erro ao carregar habilidades.</p>";
     }
 }
 
