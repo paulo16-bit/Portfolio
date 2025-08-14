@@ -8,20 +8,18 @@
       "image": "img/interface_IADEL_Finance.png",
       "links": {
         "repository": "https://github.com/paulo16-bit/IADEL_finance"
-      },
-      "date": "2024-05-12"
+      }
     },
     {
       "id": 2,
-      "title": "Landing Page de Agência Digital",
-      "description": "Página institucional desenvolvida para apresentar os serviços de uma agência digital.",
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "image": "img/fundo.jpg",
+      "title": "Jato Máximo Brilho - Sistema de Agendamento para Lava-Jato",
+      "description": "Aplicação web para gerenciar agendamentos de serviços em um lava-jato, com painel administrativo e autenticação.",
+      "technologies": ["HTML", "CSS", "JavaScript", "PHP"],
+      "image": "img/interface_JMB.png",
       "links": {
         "demo": "https://meusite.com/agencia-digital",
         "repository": "https://github.com/usuario/agencia-digital"
-      },
-      "date": "2023-11-03"
+      }
     },
     {
       "id": 3,
@@ -32,8 +30,7 @@
       "links": {
         "demo": "https://meusite.com/weather-app",
         "repository": "https://github.com/usuario/weather-app"
-      },
-      "date": "2024-02-20"
+      }
     }
   ]
 }
