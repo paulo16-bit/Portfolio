@@ -99,23 +99,84 @@
         <h1 class="hero__title">Entre em <span class="text-accent">Contatos</span></h1>
         <div class="contatos__container">
           <div class="contatos__content">
-            <h2>Informações de Contato</h2>
-            
-          </div>
-          
-          <div class="contatos__content">
-            <div class="contatos__links">
-            </div>
-            <p class="hero__description">
-              Estou sempre aberto a novas oportunidades e colaborações. Se você
-              deseja discutir um projeto, fazer uma parceria ou simplesmente
-              dizer olá, sinta-se à vontade para entrar em contato comigo.
-            </p>
-          </div>
-        </div>
+            <div class="contact__info">
+              <h2>Informações de Contato</h2>
+              <div class="contact__info-items">
+                <div class="contact__info-item">
+                  <div class="contact__icon">
+                      <i class="fas fa-envelope"></i>
+                  </div>
+                  <div class="contact__details">
+                      <span class="contact__label">Email</span>
+                      <span class="contact__value">ppauloaandre80@gmail.com</span>
+                  </div>
+                </div>
+                  
+                <div class="contact__info-item">
+                  <div class="contact__icon">
+                      <i class="fas fa-phone"></i>
+                  </div>
+                  <div class="contact__details">
+                      <span class="contact__label">Telefone</span>
+                      <span class="contact__value">+55 (98) 98437-5672</span>
+                  </div>
+                </div>
+                
+                <div class="contact__info-item">
+                  <div class="contact__icon">
+                      <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <div class="contact__details">
+                      <span class="contact__label">Localização</span>
+                      <span class="contact__value">São José de Ribamar, MA - Brasil</span>
+                  </div>
+                </div>
+              </div>
 
+              <div class="disponibilidade">
+                <h4>Disponibilidade</h4>
+                <p>
+                  Estou disponível para novos projetos e colaborações. Se você
+                  está procurando um desenvolvedor dedicado e apaixonado, entre em
+                  contato! Estou sempre aberto a discutir novas ideias e desafios.
+                </p>
+              </div>
+            </div>
+            <form action="" method="POST" class="contact__form">
+              <div class="form__group">
+                <div class="form__field">
+                    <input type="text" id="name" name="name" required placeholder="Nome"/>
+                </div>
+                <div class="form__field">
+                    <input type="email" id="email" name="_replyto" placeholder="Email" required />
+                </div>
+              </div>
+              <div class="form__field">
+                  <input type="text" id="subject" name="subject" placeholder="Assunto" required />
+              </div>
+              <div class="form__field">
+                  <textarea id="message" name="message" rows="5" placeholder="Mensagem" required></textarea>
+              </div>
+              <button type="submit" class="btnContact">Enviar</button>
+            </form>
+          </div>
         </div>
       </section>
     </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__socials">
+          <a href="https://www.linkedin.com/in/paulo-andr%C3%A9-2a7b44185" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/paulo16-bit" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.instagram.com/paulo_andr35/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <span>&copy; 2025 Paulo André Corrêa Pereira. Todos os direitos reservados.</span>
+    </footer>
   </body>
 </html>
