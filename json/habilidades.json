@@ -1,0 +1,31 @@
+{
+  "habilidades": [
+    {
+      "categoria": "Frontend",
+      "skills": [
+        { "nome": "HTML", "nivel": 90 },
+        { "nome": "CSS", "nivel": 85 },
+        { "nome": "JavaScript", "nivel": 75 } 
+      ]
+    },
+    {
+      "categoria": "Backend",
+      "skills": [
+        { "nome": "Python", "nivel": 90 },
+        { "nome": "Java", "nivel": 70 },
+        { "nome": "PHP", "nivel": 75 },
+        { "nome": "C#", "nivel": 50 }
+      ]
+    },
+      {
+      "categoria": "Frameworks",
+      "skills": [
+        { "nome":"React Native", "nivel": 50 },
+        { "nome": "Node.js", "nivel": 40 },
+        { "nome": "Express", "nivel": 60 },
+        { "nome": "React Native", "nivel": 60 }
+      ]
+    }
+    
+  ]
+}
