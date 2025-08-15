@@ -17,20 +17,19 @@
       "technologies": ["HTML", "CSS", "JavaScript", "PHP"],
       "image": "img/interface_JMB.png",
       "links": {
-        "demo": "https://meusite.com/agencia-digital",
-        "repository": "https://github.com/usuario/agencia-digital"
+        "repository": "https://github.com/paulo16-bit/Sistema-Jato-M-ximo-Brilho"
       }
     },
     {
       "id": 3,
-      "title": "Aplicativo de Previsão do Tempo",
-      "description": "App que exibe a previsão do tempo em tempo real usando API de meteorologia.",
+      "title": "Southamericainfo - App informativo sobre os países da América do Sul",
+      "description": "App desenvolvido para mobile que contém informações sobre os países da América usando a API REST Countries.",
       "technologies": ["React", "TailwindCSS", "API OpenWeather"],
       "image": "img/fundo.jpg",
       "links": {
-        "demo": "https://meusite.com/weather-app",
-        "repository": "https://github.com/usuario/weather-app"
+        "repository": "https://github.com/paulo16-bit/southamericainfo"
       }
     }
   ]
 }
+
