@@ -25,12 +25,13 @@
       "title": "Southamericainfo - App informativo sobre os países da América do Sul",
       "description": "App desenvolvido para mobile que contém informações sobre os países da América usando a API REST Countries.",
       "technologies": ["React Native"],
-      "image": "img/fundo.jpg",
+      "image": "img/interface_southamericainfo.png",
       "links": {
         "repository": "https://github.com/paulo16-bit/southamericainfo"
       }
     }
   ]
 }
+
 
 
