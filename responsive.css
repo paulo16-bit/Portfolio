@@ -66,6 +66,10 @@
   .sobre__image{
     display: none;
   }
+  .image__blob {
+    width: 25rem;
+    height: 25rem;
+  }
 }
 
 /* Telas até 480px */
@@ -103,6 +107,10 @@
 
   .footer__socials {
     font-size: 1.2em;
+  }
+  .image__blob {
+    width: 25rem;
+    height: 25rem;
   }
 }
 
@@ -144,3 +152,4 @@
   from { opacity: 0; transform: translateY(-10px); }
   to   { opacity: 1; transform: translateY(0); }
 }
+
