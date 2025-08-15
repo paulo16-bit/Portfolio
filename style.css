@@ -121,7 +121,7 @@ section{
 	max-width: 1200px;
 	align-items: center;
 }
-.hero__title {
+.section__title {
 	font-size: 3rem;
 	font-weight: 700;
 	margin-bottom: 1rem;
@@ -133,7 +133,7 @@ section{
 	margin-bottom: 1.5rem;
 	font-weight: 500;
 }
-.hero__description{
+.hero__description, .sobre__description{
 	font-size: 1.125rem;
 	color: #cbd5e0;
 	margin-bottom: 2rem;
@@ -157,14 +157,14 @@ section{
 .hero__buttons a:hover{
   	background: linear-gradient(135deg, #4a5d4a 0%, #4a5d4a 100%);
 }
-.hero__image {
+.hero__image, .sobre__image {
 	display: flex;
 	justify-content: center;
 }
-.hero__blob {
+.image__blob{
 	position: relative;
-	width: 300px;
-	height: 300px;
+	width: 18.75rem;
+	height: 18.75rem;
 	background: linear-gradient(135deg, #1a332e 0%, #0a0a0a 50%, #4a5d4a 100%);
 	border-radius: 50%;
 	padding: 1rem;
@@ -176,7 +176,7 @@ section{
 	transform: scale(1.05);
 	transition: transform 0.3s ease;
 }
-.hero__img {
+.img {
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
@@ -189,12 +189,12 @@ section{
 }
 .sobre__container {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: 4rem;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	gap: 2rem;
 	align-items: center;
 	max-width: 1200px;
 	align-items: center;
-	padding: 0 5rem;
+	padding: 1rem 2rem;
 }
 
 /* Projetos */
