@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Paulo andré - Portifólio</title>
-    <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
     <script src="script.js" defer></script>
     <script src="projetos.js" defer></script>
@@ -21,6 +22,10 @@
             </div>
             <span class="logo-text">Paulo</span>
           </a>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </div>
+
           <div class="nav__menu" id="nav-menu">
             <a class="nav__link active" href="#home">Home</a>
             <a class="nav__link" href="#sobre-mim">Sobre</a>
@@ -35,7 +40,7 @@
       <section class="hero" id="home">
         <div class="hero__container">
           <div class="hero__content">
-            <h1 class="hero__title">
+            <h1 class="section__title">
               Olá, eu sou <span class="text-accent">Paulo André</span>
             </h1>
             <h2 class="hero__subtitle">Desenvolvedor Full Stack</h2>
@@ -46,22 +51,23 @@
             </div>
           </div>
           <div class="hero__image">
-            <div class="hero__blob">
-              <img class="hero__img" src="img/minha_foto.jpg" />
+            <div class="image__blob">
+              <img class="img" src="img/minha_foto.jpg" />
             </div>
           </div>
         </div>
       </section>
 
       <section class="sobre" id="sobre-mim">
-        <h1 class="hero__title">Sobre <span class="text-accent">Mim</span></h1>
+        <h1 class="section__title">Sobre <span class="text-accent">Mim</span></h1>
         <div class="sobre__container">
           <div class="sobre__content">
             <span>
-              <p class="hero__description">
-                Desenvolvedor Full Stack apaixonado por criar soluções elegantes
-                e funcionais. Com mais de 5 anos de experiência, especializo-me
-                em React, Node.js e tecnologias modernas.
+              <p class="sobre__description">
+                Sou estudante de Sistemas de Informação cursando o 6º perìodo no Instituto Federal do Maranhão (IFMA). 
+                Apaixonado por tecnologia e desenvolvimento de software, tenho experiência em diversas linguagens de programação e frameworks.
+                Atualmente, estou focado em aprimorar minhas habilidades em desenvolvimento web, tanto no front-end quanto no back-end.
+                
               </p>
               <p>
                 Acredito que o código deve ser limpo, eficiente e escalável.
@@ -71,9 +77,9 @@
               </p>
             </span>
           </div>
-          <div class="hero__image">
-            <div class="hero__blob">
-              <img class="hero__img" src="img/minha_foto.jpg" />
+          <div class="sobre__image">
+            <div class="image__blob">
+              <img class="img" src="img/minha_foto.jpg" />
             </div>
           </div>
         </div>
@@ -81,7 +87,7 @@
 
       <section id="projetos">
         <div class="projeto__content">
-          <h1 class="hero__title project">
+          <h1 class="section__title project">
             Meus <span class="text-accent">Projetos</span>
           </h1>
           <div class="projetos__container" id="projetos__container"></div>
@@ -89,14 +95,14 @@
       </section>
 
       <section id="habilidades">
-		    <h1 class="hero__title">
+		    <h1 class="section__title">
           Minhas <span class="text-accent">Habilidades</span>
         </h1>
         <div class="habilidades__container" id="habilidades-container"></div>
 	    </section>
       
       <section id="contatos">
-        <h1 class="hero__title">Entre em <span class="text-accent">Contatos</span></h1>
+        <h1 class="section__title">Entre em <span class="text-accent">Contatos</span></h1>
         <div class="contatos__container">
           <div class="contatos__content">
             <div class="contact__info">
