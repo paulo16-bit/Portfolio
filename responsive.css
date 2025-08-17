@@ -66,6 +66,18 @@
   .sobre__image{
     display: none;
   }
+  .disponibilidade p{
+    font-size: 1em;
+  }
+  .disponibilidade h4 {
+    font-size: 1.2em;
+  }
+  .form__field input, .form__field textarea, .btnContact {
+    font-size: 1em;
+  }
+  .contact__info {
+    font-size: 0.9em;
+  }
 }
 
 /* Telas até 480px */
@@ -106,7 +118,6 @@
   }
 }
 
-/* Botão Hamburguer */
 .nav__toggle {
   display: none;
   font-size: 1.5rem;
@@ -114,7 +125,7 @@
   cursor: pointer;
 }
 
-/* Mobile */
+
 @media (max-width: 768px) {
   .nav__toggle {
     display: block;
@@ -139,7 +150,6 @@
   }
 }
 
-/* Animação de entrada */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(-10px); }
   to   { opacity: 1; transform: translateY(0); }
