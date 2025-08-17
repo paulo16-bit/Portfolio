@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Paulo andré - Portifólio</title>
+    <title>Paulo andré - Portfólio</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
@@ -69,7 +69,7 @@
                 Atualmente, estou focado em aprimorar minhas habilidades em desenvolvimento web, tanto no front-end quanto no back-end.
                 
               </p>
-              <p>
+              <p class="sobre__description">
                 Acredito que o código deve ser limpo, eficiente e escalável.
                 Sempre em busca de novos desafios e oportunidades para crescer
                 profissionalmente, focando em entregar valor real através da
@@ -102,7 +102,7 @@
 	    </section>
       
       <section id="contatos">
-        <h1 class="section__title">Entre em <span class="text-accent">Contatos</span></h1>
+        <h1 class="section__title">Entre em <span class="text-accent">Contato</span></h1>
         <div class="contatos__container">
           <div class="contatos__content">
             <div class="contact__info">
@@ -148,20 +148,20 @@
                 </p>
               </div>
             </div>
-            <form action="" method="POST" class="contact__form">
+            <form onsubmit="sendEmail(event)" class="contact__form">
               <div class="form__group">
                 <div class="form__field">
-                    <input type="text" id="name" name="name" required placeholder="Nome"/>
+                  <input type="text" id="name" name="name" required placeholder="Nome">
                 </div>
                 <div class="form__field">
-                    <input type="email" id="email" name="_replyto" placeholder="Email" required />
+                  <input type="email" id="email" name="_replyto" placeholder="Email" required>
                 </div>
               </div>
               <div class="form__field">
-                  <input type="text" id="subject" name="subject" placeholder="Assunto" required />
+                <input type="text" id="subject" name="subject" placeholder="Assunto" required>
               </div>
               <div class="form__field">
-                  <textarea id="message" name="message" rows="5" placeholder="Mensagem" required></textarea>
+                <textarea id="message" name="message" rows="5" placeholder="Mensagem" required></textarea>
               </div>
               <button type="submit" class="btnContact">Enviar</button>
             </form>
