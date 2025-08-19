@@ -20,13 +20,12 @@
       {
       "categoria": "Frameworks",
       "skills": [
-        { "nome":"React", "nivel": 40 },
+        { "nome":"React Native", "nivel": 50 },
         { "nome": "Node.js", "nivel": 40 },
-        { "nome": "Express", "nivel": 50 },
+        { "nome": "Express", "nivel": 60 },
         { "nome": "React Native", "nivel": 60 }
       ]
     }
     
   ]
 }
-

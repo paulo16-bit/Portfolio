@@ -14,7 +14,7 @@ async function carregarProjetos() {
                     <h2>${projeto.title}</h2>
                     <p>${projeto.description}</p>
                     <p class="tech">${projeto.technologies.join(", ")}</p>
-                    <div class="links">
+                    <div class="projetos__links">
                         <a href="${projeto.links.repository}" target="_blank">Código</a>
                     </div>
                 </div>
