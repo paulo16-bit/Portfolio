@@ -14,14 +14,16 @@
         { "nome": "Python", "nivel": 90 },
         { "nome": "Java", "nivel": 70 },
         { "nome": "PHP", "nivel": 75 },
-        { "nome": "C#", "nivel": 50 }
+        { "nome": "C#", "nivel": 50 }.
+        { "nome":"C", "nivel": 70 },
       ]
     },
       {
       "categoria": "Frameworks",
       "skills": [
+        { "nome":"Spring Boot", "nivel": 75 },
         { "nome":"React", "nivel": 50 },
-        { "nome": "Node.js", "nivel": 40 },
+        { "nome": "Node.js", "nivel": 50 },
         { "nome": "Express", "nivel": 60 },
         { "nome": "React Native", "nivel": 60 }
       ]
@@ -29,4 +31,5 @@
     
   ]
 }
+
 
