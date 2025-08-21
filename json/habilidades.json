@@ -14,8 +14,8 @@
         { "nome": "Python", "nivel": 90 },
         { "nome": "Java", "nivel": 70 },
         { "nome": "PHP", "nivel": 75 },
-        { "nome": "C#", "nivel": 50 }.
-        { "nome":"C", "nivel": 70 },
+        { "nome": "C#", "nivel": 50 },
+        { "nome":"C", "nivel": 70 }
       ]
     },
       {
@@ -31,5 +31,6 @@
     
   ]
 }
+
 
 
